@@ -1,0 +1,12 @@
+user - hafid-it
+pass - dotcom87
+
+
+git config --global user.email "hafid-it@mailinator.com"
+git config --global user.name "hafid-it"
+git init
+git add *
+git commit -m "v1"
+git remote add origin https://github.com/hafid-it/blog.git
+git pull -u origin master
+git push origin master
